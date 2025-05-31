@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:rgb(200, 16, 16);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    
+    text-align: center;
+
+}
+.child{
+    width: 5%;
+    background-color: rgb(104, 30, 30);
+    margin: 15px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 10px;
+    padding: 5px;
+}
+.content{
+    height:300px ;
+    background-image: url(background.png);
+    background-size: 100% 100%;
+    text-align: center;
+    
+}
+h1{
+    color: aliceblue;
+}
+.child2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 175px;
+
+}
+ .child3{
+    margin: 30px;
+    height: 30px;
+    background-color:brown;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: aliceblue;
+    width: 150px;
+    padding-top:  5px;
+ }  
+ .three{
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ } 
+ table , th ,td{
+    border: 3px solid brown;
+    border-collapse: collapse ;
+    
+    
+ }
+table{
+    width: 600px;
+    height: 200px;
+    text-align: center;
+ }
+ .imge{
+    height: 20px;
+    height: 20px;
+
+ }
+ .firstrow{
+    background-color: gray;
+    color: white;
+ }
+.secondrow{
+    background-color: rgb(54, 46, 46);
+    color: white;
+}
+button{
+    background-color: brown;
+    color: white;
+    border: 1px solid brown;
+    border-radius: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.h1{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.four{
+    height: 500px;
+    background-image: url(back2.jpg);
+    background-size: 100% 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.a{
+    background-color: gray;
+    width: 350px;
+    height: 47%;
+}
+.b{
+    background-color:gray;
+    width: 350px;
+    height: 47%;
+    text-align: center;
+}
+.c{
+    height: 6%;
+
+}
+.img2{
+    width: 350px;
+    height: 100%;
+}
+.c button{
+    width: 350px;
+    height: 100%;
+    background-color: brown;
+    border: 1px solid black;
+}
+.one{
+    height: 400px;
+    margin: 30px;
+    border: 3px solid black;
+}
+h2{
+    color: black;
+}
+p{
+    color: white;
+}
+.five{
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.two2{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(141, 177, 208);
+    margin: 20px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 3s;
+
+}
+.img3{
+    width: 50%;
+    height: 50%;
+    animation-name: rond;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+.thre3{
+    width: 400px;
+    height: 300px;
+    background-color: orange;
+    border-radius: 3px;
+    margin: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.thre3 button{
+    width: 50%;
+    height: 10%;
+    border: 3px solid black;
+}
+.two2 button{
+    width: 50%;
+    height: 10%;
+    border: 3px solid black;
+}
+@keyframes rond{
+    from{
+        transform: translateX(30px)
+
+    }
+    to{
+        transform: translateX(-30px)
+    }
+    
+}
+h3{
+        animation-name: rond;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function:linear ;
+        animation-direction: alternate;
+    }
+.last{
+    background-color:gray;
+    color: white;
+    height:50px;
+    text-align: center;
+}
+h4{
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+}
+@keyframes spin{
+    from{
+        transform: translateY(20px);
+        color: white;
+        background-color: black;
+        
+        
+    }
+    to{
+        transform: translateY(-20px);
+        color: orange;
+        background-color: blueviolet;
+    }
+}
+.footer{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h5{
+    color: orange;
+}
+.thank{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    animation-name: happy;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+@keyframes happy{
+    from{
+        transform: translateY(-2px) ;
+    }
+    to{
+        transform: translateY(20px) ;
+    }
+}
+.yoy{
+    animation-name: too;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+
+}
+@keyframes too{
+    from{
+        transform: translateY(-10px) scale(1.5);
+        
+    }
+    to{
+        transform: translateY(10px) scale(1);
+    }
+}
+.too{
+        animation-name: too;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+
+
+}
+@keyframes three{
+      from{
+        transform: translateY(-5px) scale(1.5);
+        
+    }
+    to{
+        transform: translateY(5px) scale(1);
+    }
+  
+}
+
+
